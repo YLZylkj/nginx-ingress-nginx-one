@@ -1,0 +1,39 @@
+{
+    "title": "nginx 课程",
+    "description": "nginx 入门课程",
+    "details": {
+        "intro": {
+            "text": "intro.md"
+        },
+        "steps": [
+            {
+                "title": "安装编译工具",
+                "text": "step1.md"
+            },
+            {
+                "title": "PCRE 安装",
+                "text": "step2.md"
+            },
+            {
+                "title": "Nginx 配置",
+                "text": "step3.md"
+            },
+            {
+                "title": "Nginx 启动",
+                "text": "step4.md"
+            }
+        ],
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "backend": {
+        "imageid": "ubuntu",
+        "expose": 8080,
+        "layout": "",
+        "skins": "",
+        "tools": "terminal",
+        "cpu": 1,
+        "memory": 1024
+    }
+}
